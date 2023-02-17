@@ -8,14 +8,11 @@ module.exports = {
     extend: {
       keyframes: {
         zoomloop: {
-          '0%': { transform: 'scale(1, 1)'},
-          '50%': { transform: 'scale(1.2, 1.2)'},
-          '100%': { transform: 'scale(1, 1)'},
+          '0%': { backgroundSize: '150%'},
+          '50%': { backgroundSize: '160%'},
+          '100%': { backgroundSize: '150%'},
         }
       },
-      animation: {
-        zoomloop: 'zoomloop 3s ease-in-out infinite',
-      }
     },
   },
   plugins: [],
