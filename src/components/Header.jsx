@@ -2,9 +2,11 @@ import React from 'react'
 
 function Header() {
   return (
-    <nav className='h-[60px] w-[100%] border-2'>
-        
-    </nav>
+    <header className='flex justify-center h-[80px] w-[100%]'>
+        <nav className='w-[90%] border-b-2'>
+
+        </nav>
+    </header>
   )
 }
 
